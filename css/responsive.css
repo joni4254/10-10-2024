@@ -1,6 +1,6 @@
 @media (max-width: 1300px) {
   .treatment_section .side_img {
-    opacity: 0.2;
+    opacity: 0.25;
   }
 }
 
@@ -12,11 +12,11 @@
   }
 
   .header_section {
-    margin-top: 0;
+    margin-top: 5px;
   }
 
   .header_section .header_top .contact_nav {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .quote_btn-container {
@@ -26,22 +26,21 @@
 
   .quote_btn-container a {
     margin-right: 0;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   .slider_section {
-    padding: 75px 0 125px 0;
+    padding: 70px 0 130px 0;
   }
 
-
   .client_section .box {
-    margin: 15px;
+    margin: 20px;
   }
 
   .client_section .carousel_btn-box {
     display: flex;
     justify-content: center;
-    margin-top: 45px;
+    margin-top: 50px;
   }
 
   .client_section .carousel-control-prev,
@@ -52,18 +51,18 @@
     height: 45px;
   }
 
-  .info_section .info_main_row>div {
-    margin-bottom: 25px;
+  .info_section .info_main_row > div {
+    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .about_section .detail-box {
-    margin-top: 45px;
+    margin-top: 50px;
   }
 
   .slider_section .dot_design {
-    opacity: 0.4;
+    opacity: 0.5;
   }
 
   .team_section .team_carousel {
@@ -71,7 +70,7 @@
   }
 
   .team_section .team_carousel .owl-nav {
-    margin-top: 45px;
+    margin-top: 50px;
   }
 
   .team_section .team_carousel .owl-nav button {
@@ -81,17 +80,17 @@
 
   .contact_section .form_container {
     margin-right: 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 
-  .info_section .info_main_row>div {
+  .info_section .info_main_row > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .info_section .info_main_row>div:nth-last-child(1) {
+  .info_section .info_main_row > div:nth-last-child(1) {
     margin-bottom: 0;
   }
 
@@ -118,7 +117,7 @@
 
   .info_section .info_post .post_box .img-box {
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
 }
 
@@ -132,7 +131,7 @@
   }
 
   .header_section .header_top .contact_nav a i {
-    font-size: 28px;
+    font-size: 26px;
     margin: 0;
   }
 
@@ -146,7 +145,7 @@
 
   .info_section .info_top .info_logo {
     margin-right: 0;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
 }
 
@@ -156,12 +155,19 @@
 
 @media (max-width: 376px) {
   .slider_section .detail_box h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1180px;
   }
 }
+
+
+
+
+
+
+
