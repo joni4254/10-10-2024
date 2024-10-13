@@ -1,4 +1,4 @@
-<section class="book_section layout_padding">
+<section class="book_section layout-padding">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -8,20 +8,20 @@
                     </h4>
                     <div class="form-row">
                         <div class="form-group col-lg-4">
-                            <label for="inputPatientName">Patient Name</label>
-                            <input type="text" class="form-control" id="inputPatientName" name="patient_name" placeholder="">
+                            <label for="patientNameInput">Patient Name</label>
+                            <input type="text" id="patientNameInput" class="form-control" placeholder="" name="patient_name">
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="inputDoctorName">Doctor's Name</label>
-                            <select name="doctor_name" class="form-control wide" id="inputDoctorName">
+                            <label for="doctorNameInput">Doctor's Name</label>
+                            <select id="doctorNameInput" class="form-control wide" name="doctor_name">
                                 <option value="Doctor A">Doctor A</option>
                                 <option value="Doctor B">Doctor B</option>
                                 <option value="Doctor C">Doctor C</option>
                             </select>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="inputDepartmentName">Department's Name</label>
-                            <select name="department_name" class="form-control wide" id="inputDepartmentName">
+                            <label for="departmentNameInput">Department's Name</label>
+                            <select id="departmentNameInput" class="form-control wide" name="department_name">
                                 <option value="Department A">Department A</option>
                                 <option value="Department B">Department B</option>
                                 <option value="Department C">Department C</option>
@@ -30,16 +30,16 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-lg-4">
-                            <label for="inputPhone">Phone Number</label>
-                            <input type="number" class="form-control" id="inputPhone" name="phone" placeholder="XXXXXXXXXX">
+                            <label for="phoneInput">Phone Number</label>
+                            <input type="number" id="phoneInput" class="form-control" placeholder="XXXXXXXXXX" name="phone">
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="inputSymptoms">Symptoms</label>
-                            <input type="text" class="form-control" id="inputSymptoms" name="symptoms" placeholder="">
+                            <label for="symptomsInput">Symptoms</label>
+                            <input type="text" id="symptomsInput" class="form-control" placeholder="" name="symptoms">
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="inputDate">Choose Date</label>
-                            <div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
+                            <label for="dateInput">Choose Date</label>
+                            <div class="input-group date" data-date-format="mm-dd-yyyy" id="dateInput">
                                 <input type="text" class="form-control" name="appointment_date" readonly>
                                 <span class="input-group-addon date_icon">
                                     <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -51,6 +51,10 @@
                         <button type="submit" class="btn">Submit Now</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</section>
             </div>
         </div>
     </div>
