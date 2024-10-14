@@ -24,7 +24,7 @@
                                         <span><?php echo $item['subtitle']; ?></span>
                                     </h1>
                                     <p><?php echo $item['description']; ?></p>
-                                    <a href="<?php echo $item['link']; ?>">Contact Us</a>
+                                    <a href="<?php echo $item['url']; ?>">Contact Us</a>
                                 </div>
                             </div>
                             <div class="col-md-6">
