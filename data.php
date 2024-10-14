@@ -159,6 +159,8 @@ $testimonials = [
 
 
 
+$doctors = ['Doctor A', 'Doctor B', 'Doctor C'];
+$departments = ['Department A', 'Department B', 'Department C'];
 
 
 
