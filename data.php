@@ -33,21 +33,21 @@ $sliderItems = [
         'subtitle' => 'Hospital',
         'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
         'image' => 'images/slider-img.jpg',
-        'link' => '#', // Link for "Contact Us"
+        'url' => 'index.php?page=contact', // Link for "Contact Us"
     ],
     [
         'title' => 'Mico',
         'subtitle' => 'Hospital',
         'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
         'image' => 'images/slider-img.jpg',
-        'link' => '#',
+        'url' => 'index.php?page=contact',
     ],
     [
         'title' => 'Mico',
         'subtitle' => 'Hospital',
         'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
         'image' => 'images/slider-img.jpg',
-        'link' => '#',
+        'url' => 'index.php?page=contact',
     ],
 ];
 
