@@ -1,7 +1,7 @@
 
 
 <?php include 'data.php'; ?>
-
+<div class="hero_area" >
 <section class="slider_section">
     <div class="dot_design">
         <img src="images/dots.png" alt="">
@@ -49,3 +49,4 @@
         </div>
     </div>
 </section>
+</div>
