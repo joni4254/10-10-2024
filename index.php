@@ -42,6 +42,8 @@
 <body>
 
 <?php
+include 'data.php';
+
 
 
 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
@@ -79,6 +81,9 @@ if ($page !== 'home') {
 ?>
 
 
+
+
+
 <!-- jQery -->
 <script src="js/jquery-3.4.1.min.js"></script>
 <!-- bootstrap js -->
@@ -91,6 +96,20 @@ if ($page !== 'home') {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 <!-- custom js -->
 <script src="js/custom.js"></script>
+
+
+<script>
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector('.header_section');
+        if (window.scrollY > 1) { // Adjust the scroll position to your preference
+            header.classList.add('shrink');
+        } else {
+            header.classList.remove('shrink');
+        }
+    });
+</script>
+
+
 
 
 </body>

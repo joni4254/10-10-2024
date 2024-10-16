@@ -27,29 +27,39 @@ $navLinks = [
 
 
 
+
 $sliderItems = [
     [
+        'background_color' => '#ffcccc',
         'title' => 'Mico',
         'subtitle' => 'Hospital',
-        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.',
         'image' => 'images/slider-img.jpg',
-        'url' => 'index.php?page=contact', // Link for "Contact Us"
+        'link' => 'index.php?page=contact',
     ],
     [
+        'background_color' => '#ccffcc',
         'title' => 'Mico',
         'subtitle' => 'Hospital',
-        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.',
         'image' => 'images/slider-img.jpg',
-        'url' => 'index.php?page=contact',
+        'link' => 'index.php?page=contact',
     ],
     [
+        'background_color' => '#ccccff',
         'title' => 'Mico',
         'subtitle' => 'Hospital',
-        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to',
+        'description' => 'When looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.',
         'image' => 'images/slider-img.jpg',
-        'url' => 'index.php?page=contact',
+        'link' => 'index.php?page=contact',
     ],
 ];
+
+
+
+
+
+
 
 
 //   ===================           treatments   =============
@@ -163,5 +173,14 @@ $doctors2 = ['Doctor A', 'Doctor B', 'Doctor C'];
 $departments = ['Department A', 'Department B', 'Department C'];
 
 
-
 ?>
+
+
+
+
+
+
+
+
+
+

@@ -3,6 +3,11 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
+  align-self: center;
+  align-items: center;
+  margin: 0 auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 1400px;
 }
 
 .layout_padding {
@@ -128,6 +133,8 @@ a:focus {
 
 .custom_nav-container {
   padding: 0;
+  max-width: 1368px;
+  margin: 0 auto;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -260,6 +267,63 @@ a:focus {
 .quote_btn-container a:hover {
   color: #252525;
 }
+
+
+
+
+.header_section {
+  background-color: white; 
+  position: sticky;
+  z-index: 1000; 
+  right:0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1); 
+  margin: 0 auto;
+  border-radius:8px 8px 0 0 ;
+}
+
+
+.header_top {
+  padding: 15px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  transform: translateY(0); 
+  opacity: 1; 
+}
+
+
+.header_section.shrink {
+  height: 40px; 
+ 
+}
+
+.header_section .header_top,
+.header_section .header_bottom {
+  transition: padding 1s;
+}
+
+.header_section.shrink .header_top {
+  padding: 0; 
+  display: none; 
+}
+
+.header_section.shrink .header_bottom {
+  padding: 5px 0; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+  padding-bottom: 2px;
+}
+
+.header_section.shrink .navbar-brand img {
+width: 30px;
+height: 30px;
+}
+
+.header_section.shrink .navbar-brand {
+  padding: 4px 10px;
+  }
+  
+
 
 /*end header section*/
 /* slider section */
@@ -606,6 +670,7 @@ a:focus {
 
 .treatment_section {
   position: relative;
+  background-color: azure;
 }
 
 .treatment_section .side_img {
@@ -655,7 +720,14 @@ a:focus {
 
 .team_section {
   background-color: #00c6a9;
+  padding: 20px;
+  color: #ffffff;
+  box-shadow: 
+      0 -4px 12px rgba(0, 0, 0, 0.2), 
+      0 4px 12px rgba(0, 0, 0, 0.2);  
+  border-radius: 8px;
 }
+
 
 .team_section .heading_container {
   margin-bottom: 45px;
@@ -778,6 +850,10 @@ a:focus {
   right: -25px;
 }
 
+.client_section {
+background-color: azure;
+}
+
 .client_section .heading_container {
   margin-bottom: 35px;
 }
@@ -846,6 +922,12 @@ a:focus {
 
 .contact_section {
   position: relative;
+  
+    
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px; 
+    background-color: white; 
+   margin-bottom: 100px;
 }
 
 .contact_section .heading_container {
@@ -913,6 +995,10 @@ a:focus {
 .info_section {
   background-color: #252525;
   color: #ffffff;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  border-radius:8px 8px 0 0 ; 
+
 }
 
 .info_section .info_top {
